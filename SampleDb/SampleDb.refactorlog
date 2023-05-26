@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5d1d9495-9cac-4afb-80c5-703bf57b8e61" ChangeDateTime="05/25/2023 11:30:37">
+    <Property Name="ElementName" Value="[dbo].[CustomerRanking].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CustomerRanking]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustormerRankingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8a8b6564-4450-4f75-9d8e-24d214c02ede" ChangeDateTime="05/25/2023 14:39:35">
+    <Property Name="ElementName" Value="[dbo].[Customer].[CustormerRankingId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Customer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerRankingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0728593f-26e7-4175-8189-b5baf2dd91c1" ChangeDateTime="05/25/2023 14:40:13">
+    <Property Name="ElementName" Value="[dbo].[CustomerRanking].[CustormerRankingId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CustomerRanking]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerRankingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9f19314e-d485-4d51-882e-223e5a6af7b5" ChangeDateTime="05/25/2023 15:32:50">
+    <Property Name="ElementName" Value="[dbo].[CustomerRanking]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="Ranking" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0ff244e9-ee5b-43c6-b57e-723a341e0a1e" ChangeDateTime="05/25/2023 15:35:13">
+    <Property Name="ElementName" Value="[dbo].[Customer].[CustomerRankingId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Customer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RankingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0ea7e2c7-ad99-49de-8105-9dd76ce9d4e0" ChangeDateTime="05/25/2023 15:37:18">
+    <Property Name="ElementName" Value="[dbo].[Ranking].[CustomerRankingId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Ranking]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RankingId" />
+  </Operation>
+</Operations>

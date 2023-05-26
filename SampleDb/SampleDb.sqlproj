@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{abdb34f0-42f6-4020-8e6d-2b80ab48ccd2}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -123,6 +123,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Views\" />
     <Folder Include="Snapshots" />
+    <Folder Include="dbo\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Customer.sql">
@@ -137,8 +138,13 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
+    <Build Include="dbo\Tables\Ranking.sql" />
+    <Build Include="dbo\Stored Procedures\uspRankCustomers.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Snapshots\Version1 Baseline.dacpac" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="SampleDb.refactorlog" />
   </ItemGroup>
 </Project>
